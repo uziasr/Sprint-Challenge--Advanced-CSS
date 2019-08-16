@@ -5,7 +5,7 @@
  
   .intro {
     img{
-      border-radius: 20px;
+      border-radius: 5px;
       width:100%;
     }
 
@@ -23,17 +23,34 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    .sky{
+      @media @phone{
+        display:none;
+      }
+    }
+    .launch{
+      @media @phone{
+        display:none;
+      }
+    }
 
     img {
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+      @media @phone{
+        width:100%;
+      }
     }
   }
 
   .visit-planets {
     padding: 15px;
+    @media @phone{
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
 
     h3 {
       margin-top: 11px;
