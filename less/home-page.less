@@ -1,7 +1,8 @@
 // Home Content
 
 .home {
-  
+
+ 
   .intro {
     img{
       border-radius: 20px;
@@ -62,6 +63,12 @@
       }
 
       .btn {
+        .button-please(@bg-c:@btn-bg-color, @border-rad:5px, @width:27%);
+        &:hover{
+          color:@btn-bg-color;
+          background: white;
+          border: 1px solid @btn-bg-color;
+        }
       }
     }
 
