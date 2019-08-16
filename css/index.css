@@ -131,7 +131,7 @@ table {
 }
 html {
   font-size: 62.5%;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 @media (max-width:500px) {
@@ -343,4 +343,79 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+.about {
+  width: 100%;
+}
+.about header {
+  margin-bottom: 3%;
+  padding-bottom: 3%;
+  border-bottom: 1px solid #dee2e6;
+}
+.about header h2 {
+  margin: 3% 0;
+  text-align: center;
+}
+.about header img {
+  width: 100%;
+  opacity: 0.95;
+}
+.about header .about-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.about header .about-wrap .parent-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: space-between;
+  align-items: space-around;
+}
+.about header .about-wrap .parent-text .text-wrapped {
+  margin: 4% 0;
+  padding: 1% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: space-between;
+}
+.about header .about-wrap .parent-text .text-wrapped h3 {
+  margin: 5% 0;
+}
+@media (max-width:500px) {
+  .about header .about-wrap .parent-text .text-wrapped h3 {
+    text-align: center;
+  }
+}
+.about header .about-wrap .parent-text .text-wrapped p {
+  width: 95%;
+}
+.about header .about-wrap img.desktop-only {
+  width: 35%;
+  height: 100vh;
+  border-radius: 5px;
+}
+@media (max-width:500px) {
+  .about header .about-wrap img.desktop-only {
+    display: none;
+  }
+}
+.about .future {
+  width: 90%;
+  margin: 0 auto;
+}
+.about .future .future-text {
+  margin-bottom: 3%;
+}
+.about .future .future-text h3 {
+  margin: 2% 0;
+}
+.about .future .future-img {
+  width: 100%;
+  margin: 0 auto;
+}
+.about .future .future-img img {
+  width: 100%;
 }
