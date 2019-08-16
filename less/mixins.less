@@ -5,8 +5,8 @@
     justify-content: @justify;
     align-items: @align;
 }
-.button-please(@bg-c:@btn-bg-color, @border-rad:3px, @width:27%){
-    padding: 3%;
+.button-please(@bg-c:@btn-bg-color, @border-rad:3px, @width:27%,@padding:3%){
+    padding: @padding;
     background-color: @bg-c;
     border-radius: @border-rad;
     text-align: center;
@@ -14,5 +14,13 @@
     font-size: 1.7em;
     width:@width;
     // margin: 0 auto;
+
+}
+
+.centered(@width){
+    //takes custom width and makes sure the content is 
+    //centered relatve to the page
+    width:@width;
+    margin: 0 auto;
 
 }

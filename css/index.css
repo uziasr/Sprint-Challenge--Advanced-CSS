@@ -254,12 +254,6 @@ footer {
 .home .visit-planets {
   padding: 15px;
 }
-@media (max-width:500px) {
-  .home .visit-planets {
-    padding-bottom: 0;
-    margin-bottom: 0;
-  }
-}
 .home .visit-planets h3 {
   margin-top: 11px;
 }
@@ -279,6 +273,7 @@ footer {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+    margin-top: 4%;
     width: 100%;
     padding: 4%;
   }
@@ -297,7 +292,7 @@ footer {
 @media (max-width:500px) {
   .home .walk .walk-text h3 {
     order: 2;
-    margin: 6% 0;
+    margin: 8% 0 2% 0;
   }
 }
 .home .walk .walk-text p {
@@ -324,7 +319,7 @@ footer {
 }
 @media (max-width:500px) {
   .home .walk .walk-text .btn {
-    padding: 3%;
+    padding: 4%;
     background-color: #22283A;
     border-radius: 3px;
     text-align: center;

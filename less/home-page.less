@@ -47,11 +47,7 @@
 
   .visit-planets {
     padding: 15px;
-    @media @phone{
-      //revisit
-      padding-bottom: 0;
-      margin-bottom: 0;
-    }
+
 
     h3 {
       margin-top: 11px;
@@ -70,6 +66,7 @@
     justify-content: center;
     @media @phone{
       .flex-box(center,center,@direction:column-reverse);
+      margin-top:4%;
       width:100%;
       padding:4%;
     }
@@ -84,7 +81,7 @@
         margin-bottom: 10px;
         @media @phone{
           order:2;
-          margin:6% 0;
+          margin:8% 0 2% 0;
         }
       }
 
@@ -103,7 +100,7 @@
           border: 1px solid @btn-bg-color;
         }
         @media @phone{
-          .button-please(@width:100%);
+          .button-please(@width:100%, @padding:4%);
           order:5;
         }
       }
